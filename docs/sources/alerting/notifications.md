@@ -73,6 +73,7 @@ Telegram | `telegram` | yes | no
 Threema | `threema` | yes, external only | no
 VictorOps | `victorops` | yes, external only | no
 [Webhook](#webhook) | `webhook` | yes, external only | yes
+[Zenduty](#zenduty) | `webhook` | yes, external only | yes
 
 ### Email
 
@@ -184,6 +185,10 @@ In DingTalk PC Client:
 6. There will be a Webhook URL in the panel, looks like this: https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxx. Copy this URL to the grafana Dingtalk setting page and then click "finish".
 
 Dingtalk supports the following "message type": `text`, `link` and `markdown`. Only the `link` message type is supported.
+
+### Zenduty
+
+Zenduty is an incident management platform that lets you send Grafana alerts to your on-call engineers and network operations teams via SMS, Phone, Email, Slack channels, Microsoft Teams, and Android/iOS push notifications, and also lets you custom route or escalate those alerts to other team members to ensure that critical Grafana alerts are resolved quickly. To integrate Zenduty with Grafana, refer to the documentation link here[here](https://docs.zenduty.com/docs/grafana).
 
 ### Kafka
 
